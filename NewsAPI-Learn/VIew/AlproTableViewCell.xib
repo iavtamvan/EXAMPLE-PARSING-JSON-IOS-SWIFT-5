@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="286" id="KGk-i7-Jjw" customClass="AlproTableViewCell" customModule="NewsAPI_Learn" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="277"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="277"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dPy-6R-Fed">
+                        <rect key="frame" x="20" y="14" width="374" height="184"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="184" id="wLk-4L-l0V"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTy-H3-jH0">
+                        <rect key="frame" x="20" y="247" width="374" height="17"/>
+                        <accessibility key="accessibilityConfiguration" identifier="AlproCell"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="OHs-VI-IVC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsA-ga-6nq">
+                        <rect key="frame" x="20" y="215" width="374" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="9n1-bn-nVu"/>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="leading" secondItem="MTy-H3-jH0" secondAttribute="leading" id="A2K-tY-ypM"/>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="trailing" secondItem="YsA-ga-6nq" secondAttribute="trailing" id="GQC-iW-XhA"/>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="leading" secondItem="YsA-ga-6nq" secondAttribute="leading" id="iQE-nQ-8SR"/>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="igR-LJ-p7K"/>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="trailing" secondItem="MTy-H3-jH0" secondAttribute="trailing" id="kjD-7v-mBL"/>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-41" id="lfw-3m-mA8"/>
+                    <constraint firstItem="MTy-H3-jH0" firstAttribute="top" secondItem="YsA-ga-6nq" secondAttribute="bottom" constant="8" symbolic="YES" id="mOE-Ae-bvM"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="MTy-H3-jH0" secondAttribute="bottom" constant="2" id="rCZ-ee-BCU"/>
+                    <constraint firstItem="YsA-ga-6nq" firstAttribute="top" secondItem="dPy-6R-Fed" secondAttribute="bottom" constant="17" id="uin-ST-yCV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration" identifier="AlproCell"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ivAlpro" destination="dPy-6R-Fed" id="jmK-ZQ-jcA"/>
+                <outlet property="nameLbl" destination="YsA-ga-6nq" id="0wh-Er-2h8"/>
+                <outlet property="statusLbl" destination="MTy-H3-jH0" id="i15-Wt-oNI"/>
+            </connections>
+            <point key="canvasLocation" x="240.57971014492756" y="210.60267857142856"/>
+        </tableViewCell>
+    </objects>
+</document>

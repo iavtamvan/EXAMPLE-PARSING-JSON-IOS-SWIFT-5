@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04183E8024529AE00071CFCE /* AlproTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04183E7E24529AE00071CFCE /* AlproTableViewCell.swift */; };
+		04183E8124529AE00071CFCE /* AlproTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04183E7F24529AE00071CFCE /* AlproTableViewCell.xib */; };
+		04183E872453222C0071CFCE /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04183E862453222C0071CFCE /* ProfilViewController.swift */; };
+		04183E89245533FE0071CFCE /* ImageDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04183E88245533FE0071CFCE /* ImageDownload.swift */; };
+		0465ED86243474CD0085E667 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465ED85243474CD0085E667 /* Photos.swift */; };
 		04A035C9242F71D30023240E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A035C8242F71D30023240E /* AppDelegate.swift */; };
 		04A035CB242F71D30023240E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A035CA242F71D30023240E /* SceneDelegate.swift */; };
 		04A035CD242F71D30023240E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A035CC242F71D30023240E /* ViewController.swift */; };
 		04A035D0242F71D30023240E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A035CE242F71D30023240E /* Main.storyboard */; };
 		04A035D2242F71D50023240E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A035D1242F71D50023240E /* Assets.xcassets */; };
 		04A035D5242F71D50023240E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A035D3242F71D50023240E /* LaunchScreen.storyboard */; };
+		04A035DD242F77E30023240E /* DetailNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A035DC242F77E30023240E /* DetailNewsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04A035C5242F71D30023240E /* NewsAPI-Learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsAPI-Learn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04183E7E24529AE00071CFCE /* AlproTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlproTableViewCell.swift; sourceTree = "<group>"; };
+		04183E7F24529AE00071CFCE /* AlproTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlproTableViewCell.xib; sourceTree = "<group>"; };
+		04183E862453222C0071CFCE /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		04183E88245533FE0071CFCE /* ImageDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownload.swift; sourceTree = "<group>"; };
+		0465ED85243474CD0085E667 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		04A035C5242F71D30023240E /* Stunting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stunting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A035C8242F71D30023240E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A035CA242F71D30023240E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04A035CC242F71D30023240E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,7 @@
 		04A035D1242F71D50023240E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A035D4242F71D50023240E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A035D6242F71D50023240E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A035DC242F77E30023240E /* DetailNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04183E79245298D00071CFCE /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				04183E7E24529AE00071CFCE /* AlproTableViewCell.swift */,
+				04A035CC242F71D30023240E /* ViewController.swift */,
+				04A035DC242F77E30023240E /* DetailNewsViewController.swift */,
+				04183E862453222C0071CFCE /* ProfilViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		04183E7B245298EE0071CFCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0465ED85243474CD0085E667 /* Photos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04183E7C2452990D0071CFCE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04A035C8242F71D30023240E /* AppDelegate.swift */,
+				04A035CA242F71D30023240E /* SceneDelegate.swift */,
+				04183E88245533FE0071CFCE /* ImageDownload.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04183E7D245299190071CFCE /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				04A035CE242F71D30023240E /* Main.storyboard */,
+				04A035D3242F71D50023240E /* LaunchScreen.storyboard */,
+				04183E7F24529AE00071CFCE /* AlproTableViewCell.xib */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
 		04A035BC242F71D30023240E = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +99,7 @@
 		04A035C6242F71D30023240E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04A035C5242F71D30023240E /* NewsAPI-Learn.app */,
+				04A035C5242F71D30023240E /* Stunting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +107,11 @@
 		04A035C7242F71D30023240E /* NewsAPI-Learn */ = {
 			isa = PBXGroup;
 			children = (
-				04A035C8242F71D30023240E /* AppDelegate.swift */,
-				04A035CA242F71D30023240E /* SceneDelegate.swift */,
-				04A035CC242F71D30023240E /* ViewController.swift */,
-				04A035CE242F71D30023240E /* Main.storyboard */,
+				04183E7D245299190071CFCE /* VIew */,
+				04183E7C2452990D0071CFCE /* Base */,
+				04183E7B245298EE0071CFCE /* Model */,
+				04183E79245298D00071CFCE /* controller */,
 				04A035D1242F71D50023240E /* Assets.xcassets */,
-				04A035D3242F71D50023240E /* LaunchScreen.storyboard */,
 				04A035D6242F71D50023240E /* Info.plist */,
 			);
 			path = "NewsAPI-Learn";
@@ -84,7 +134,7 @@
 			);
 			name = "NewsAPI-Learn";
 			productName = "NewsAPI-Learn";
-			productReference = 04A035C5242F71D30023240E /* NewsAPI-Learn.app */;
+			productReference = 04A035C5242F71D30023240E /* Stunting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04183E8124529AE00071CFCE /* AlproTableViewCell.xib in Resources */,
 				04A035D5242F71D50023240E /* LaunchScreen.storyboard in Resources */,
 				04A035D2242F71D50023240E /* Assets.xcassets in Resources */,
 				04A035D0242F71D30023240E /* Main.storyboard in Resources */,
@@ -138,6 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04183E8024529AE00071CFCE /* AlproTableViewCell.swift in Sources */,
+				04183E89245533FE0071CFCE /* ImageDownload.swift in Sources */,
+				0465ED86243474CD0085E667 /* Photos.swift in Sources */,
+				04183E872453222C0071CFCE /* ProfilViewController.swift in Sources */,
+				04A035DD242F77E30023240E /* DetailNewsViewController.swift in Sources */,
 				04A035CD242F71D30023240E /* ViewController.swift in Sources */,
 				04A035C9242F71D30023240E /* AppDelegate.swift in Sources */,
 				04A035CB242F71D30023240E /* SceneDelegate.swift in Sources */,
@@ -290,8 +346,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iavariav.NewsAPI-Learn";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iavariav.Stunting;
+				PRODUCT_NAME = Stunting;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,8 +363,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iavariav.NewsAPI-Learn";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iavariav.Stunting;
+				PRODUCT_NAME = Stunting;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
